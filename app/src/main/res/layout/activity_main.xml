@@ -18,8 +18,9 @@
             android:layout_centerHorizontal="true">
             <ImageView
                 android:id="@+id/fondo_curtain_red"
-                android:layout_width="300dp"
-                android:layout_height="80dp"
+                android:layout_width="250dp"
+                android:layout_margin="20dp"
+                android:layout_height="70dp"
                 android:scaleType="center"
                 android:adjustViewBounds="true"
                 android:background="@drawable/enjoit_rojo"
@@ -28,6 +29,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="30dp"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/perfilContainer"
                >
@@ -37,9 +39,9 @@
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
 
-                    android:text="PERFIL"
+                    android:text="PERFIL "
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
                     android:textColor="@color/negro"
                     />
                 <TextView
@@ -50,7 +52,7 @@
                     android:adjustViewBounds="true"
                     android:text="DOMICILIARIO"
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
                     android:textColor="@color/rojo_franjaitemres"
                     />
             </LinearLayout>
