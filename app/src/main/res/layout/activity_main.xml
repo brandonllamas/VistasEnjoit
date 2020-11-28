@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/perfilContainer"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:id="@+id/fondo_curtain_red"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:scaleType="center"
+                android:adjustViewBounds="true"
+                android:background="@drawable/enjoit_rojo"
+                ></ImageView>
+        </RelativeLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/perfilContainer"
+               >
+                <TextView
+                    android:id="@+id/txt_nombre_editperfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+
+                    android:text="PERFIL"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="@color/negro"
+                    />
+                <TextView
+                    android:id="@+id/txt_nombre_editperfil2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:adjustViewBounds="true"
+                    android:text="DOMICILIARIO"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="@color/rojo_franjaitemres"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

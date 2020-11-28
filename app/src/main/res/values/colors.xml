@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#DB3920</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FF0000</color>
+    <color name="verde_bt_inicio">#6DA312</color>
+
+    <color name="blanco">#FFFFFF</color>
+    <color name="negro">#000000</color>
+
+    <color name="grisOscuro">#474947</color>
+
+    <color name="rojo_franjaitemres">#CDFF1B00</color>
+
+    <color name="negro_transp">#BE000000</color>
+    <color name="amarillo_rating">#FFBF00</color>
+
+    <color name="verde_menta">#2EB374</color>
+    <color name="verde_dark">#248655</color>
+
+    <color name="transparente">#00248655</color>
+
+    <color name="gris">#A8A8A8</color>
+    <color name="sombreado">#439EA88D</color>
+    <color name="moradoPropina">#942FAD</color>
+    <color name="azulbt">#0DA9FF</color>
+    <color name="grisTransparente">#33000000</color>
+
+    <color name="verdeSolicitado">#56CA46</color>
+    <color name="naranjaEnProces">#EB6A25</color>
+    <color name="AzulAlaMesa">#2874A0</color>
+
+    <color name="blancoTrans">#CFFFFFFF</color>
+    <color name="negroClaro">#CF332C2C</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>
