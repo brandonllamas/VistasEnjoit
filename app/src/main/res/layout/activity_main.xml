@@ -27,9 +27,10 @@
                 ></ImageView>
         </RelativeLayout>
             <LinearLayout
+                android:id="@+id/titulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="30dp"
+                android:layout_margin="20dp"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/perfilContainer"
                >
@@ -38,7 +39,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
-
                     android:text="PERFIL "
                     android:textStyle="bold"
                     android:textSize="25dp"
@@ -57,6 +57,53 @@
                     />
             </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/titulo">
+
+            <TableLayout
+                android:id="@+id/Tlay_mallaprincipal_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                >
+                <TableRow android:weightSum="2">
+                    <LinearLayout>
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:scaleType="center"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/perfiluser"
+                            ></ImageView>
+                        <TextView
+                            android:id="@+id/userName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:text="King Viruz"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:textColor="@color/rojo_franjaitemres"
+                            />
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:scaleType="center"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/logo_enjoit"
+                        ></ImageView>
+                </TableRow>
+
+
+            </TableLayout>
+
+        </LinearLayout>
 
 
 
