@@ -18,7 +18,7 @@
             android:layout_centerHorizontal="true">
             <ImageView
                 android:id="@+id/fondo_curtain_red"
-                android:layout_width="250dp"
+                android:layout_width="150dp"
                 android:layout_margin="20dp"
                 android:layout_height="70dp"
                 android:scaleType="center"
@@ -26,11 +26,13 @@
                 android:background="@drawable/enjoit_rojo"
                 ></ImageView>
         </RelativeLayout>
+
             <LinearLayout
                 android:id="@+id/titulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
+                android:layout_margin="2dp"
+
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/perfilContainer"
                >
@@ -61,47 +63,87 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_below="@id/titulo">
+            android:layout_below="@id/titulo"
+            android:layout_margin="10dp"
+            android:weightSum="2">
 
-            <TableLayout
-                android:id="@+id/Tlay_mallaprincipal_home"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
                 >
-                <TableRow android:weightSum="2">
-                    <LinearLayout>
-                        <ImageView
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:scaleType="center"
-                            android:adjustViewBounds="true"
-                            android:background="@drawable/perfiluser"
-                            ></ImageView>
-                        <TextView
-                            android:id="@+id/userName"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_centerHorizontal="true"
-                            android:adjustViewBounds="true"
-                            android:text="King Viruz"
-                            android:textStyle="bold"
-                            android:textSize="20dp"
-                            android:textColor="@color/rojo_franjaitemres"
-                            />
-                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    >
+
                     <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="70dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         android:scaleType="center"
                         android:adjustViewBounds="true"
-                        android:background="@drawable/logo_enjoit"
-                        ></ImageView>
-                </TableRow>
+                        android:background="@drawable/perfiluser"
+                        />
+
+                    <TextView
+                        android:id="@+id/userName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:text="King Viruz"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColor="@color/rojo_franjaitemres"
+                        />
+
+                </LinearLayout>
 
 
-            </TableLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/nombrePersona"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:scaleType="center"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/perfiluser"
+                    />
+
+                <TextView
+                    android:id="@+id/userName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:adjustViewBounds="true"
+                    android:text="1193505849"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/rojo_franjaitemres"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </LinearLayout>
+
+
+
+
+
 
         </LinearLayout>
 
